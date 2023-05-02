@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
-vim.keymap.set("n","<leader>pv", vim.cmd.Ex)
+--vim.keymap.set("n","<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n","<leader>ss", vim.cmd.w)
+vim.keymap.set("n","<leader>qq", vim.cmd.q)
 
 -- Move all function up and down when is highlighted
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
